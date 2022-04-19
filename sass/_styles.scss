@@ -1,0 +1,267 @@
+a {
+    text-decoration: none;
+}
+
+.btn-light {
+    color:#1B1A17;
+}
+
+.btn-light:hover {
+    color: #00004d;
+    border-color: #00004d;
+}
+
+.btn-light:hover i {
+    color: #00004d;
+}
+
+.btn-light i {
+    color: #595959; 
+}
+
+.wizard a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+// .carousel-inner img {
+//     height: 450px;
+// }
+
+// #slider {
+//     max-height: 300px;
+// }
+
+// @media (min-width:1200px) {
+//     #slider {
+//         max-height: 350px;
+//     }
+// }
+
+// @media (min-width:1400px) {
+//     #slider {
+//         max-height: 400px;
+//     }
+// }
+
+// CARDS
+
+.card .img-wrap {
+    height: 250px;
+}
+
+.img-wrap {
+    position: relative;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card .img-wrap img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card:hover .img-wrap {
+    transform: scale(1.03);
+    transition-duration: .3s;
+}
+
+.card .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.card .title {
+    display: block;
+    text-decoration: none; 
+    font-weight: bold;
+    color: #00004d;
+}
+
+.card:hover .title {
+    opacity: 0.70;
+}
+
+.card .info-wrap {
+    padding: 1rem 1.2rem;
+}
+
+.btn-icon {
+    width: 2.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    color: #595959;
+}
+
+.btn-icon:hover {
+    color: #ff0000;
+}
+
+
+// PRODUCT DETAİLS
+.breadcrumb a {
+    color: #fff;
+    opacity: 0.75;
+}
+
+.breadcrumb .breadcrumb-item {
+    color: #fff;
+}
+
+// GALLERY
+.gallery-wrap .img-big-wrap {
+    display: block;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.gallery-wrap .img-big-wrap a {
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+
+.gallery-wrap .thumbs-wrap {
+    text-align: center;
+}
+
+.gallery-wrap .thumbs-wrap a {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #dde2e6;
+    border-radius: .3rem;
+    margin: 3px;
+    display: inline-block;
+    overflow: hidden;
+} 
+
+// .gallery-wrap .thumbs-wrap img {
+//     max-width: 100%;
+//     max-height: 100%;
+//     object-fit: cover;
+// }
+
+.checked {
+    color: orange;  
+}
+
+// YORUMLAR
+#comments .averagerate {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+#comments .averagebox .fa-star {
+    font-size: 22px;
+}
+
+#comments .table .progress {
+    height: 7px;
+}
+
+#comments .content .fa-star {
+    font-size: 11px;
+}
+
+#comments .comment-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+// FOOTER
+.footer-below a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-below a:hover {
+    text-decoration: underline;
+}
+
+.footer-below li {
+    list-style: none;
+}
+
+.social-media a {
+    padding-left: 1rem;
+}
+
+.social-media a:hover {
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+@media (max-width: 440px) {
+    .footer-below .d-flex {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .footer-below ul {
+        padding-left: 7px !important;
+    }
+
+    .footer-below .text-warning {
+        padding-left: 3px !important;
+    }
+
+    .footer-below .social-media a {
+        padding-left: 5px !important;
+    }
+
+    .footer-below i {
+        font-size: x-large !important;
+    }
+
+    .footer-below:last-child p {
+        font-size: small !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: small !important;
+    }
+
+    footer p {
+        font-size: medium !important;
+    }
+
+    footer .contact-phone .tel-no {
+        font-size: 18px !important;
+    }
+
+    footer .social-media a {
+        padding-left: 0 !important;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

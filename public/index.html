@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <title>E-Ticaret</title>
+</head>
+<body>
+    
+    <header>
+        <section class="top-bar py-3">
+            <div class="container">
+                <div class="row gy-2 align-items-center">
+                    <div class="order-1 col-lg-2 col-sm-3 col-4">
+                        <a href="index.html" class="navbar-brand fw-bold fs-3">TECHNANO</a>
+                    </div>
+                    <div class="order-3 order-lg-2 col-lg-5 col-12">
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Ürün,Marka veya Anahtar Kelime">
+                                <button class="btn btn-primary">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="order-2 col-lg-5 col-sm-9 col-8">
+                        <div class="text-end">
+                            <a href="#" class="btn btn-light">
+                                <i class="fa fa-user"></i> 
+                                <span class="ms-1 d-none d-md-inline-block">Hesabım</span>
+                            </a>
+                            <a href="#" class="btn btn-light">
+                                <i class="fa fa-heart"></i>
+                                <span class="ms-1 d-none d-md-inline-block">Favorilerim</span>
+                            </a>
+                            <a href="#" class="btn btn-light">
+                                <i class="fa fa-cart-shopping"></i>
+                                <span class="ms-1 d-none d-md-inline-block">Sepetim</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+            <div class="container">
+                <button type="button" class="navbar-toggler border" data-bs-toggle="offcanvas" data-bs-target="#navbar_main">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="wizard btn btn-secondary"><a href="#">Pc Toplama Sihirbazı</a></div>
+
+                <div class="offcanvas offcanvas-start" id="navbar_main">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-primary fs-3 fw-bold">TECHNANO</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body bg-primary">
+                        <ul class="navbar-nav ps-3">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Bilgisayar Parçaları</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Bilgisayar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Çevre Birimleri</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Depolama</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Network</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Yazılım</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Aksesuar</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">Diğer Kategoriler</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#" class="dropdown-item">Ofis Ürünleri ve Projeksiyon</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">Oyun ve Hobi</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">Hizmet</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <!-- slider -->
+    <section class="pt-3 slider">
+        <div class="container">
+            <main class="card">
+                <div class="row p-lg-2 p-2">
+                    <div class="col-lg-8">
+                        <div id="slider" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#slider" data-bs-slide-to="1"></button>
+                                <!-- <button type="button" data-bs-target="#slider" data-bs-slide-to="2"></button> -->
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/slider asus.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slider msi.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <!-- <div class="carousel-item">
+                                    <img src="img/slider ryzen.PNG" alt="" class="d-block w-100">
+                                </div> -->
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <aside class="col-lg-4">
+                        <div id="aside-1" class="carousel slide pb-3" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#aside-1" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#aside-1" data-bs-slide-to="1"></button>
+                                <!-- <button type="button" data-bs-target="#aside-1" data-bs-slide-to="2"></button> -->
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/slider asus.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slider msi.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <!-- <div class="carousel-item">
+                                    <img src="img/slider ryzen.PNG" alt="" class="d-block w-100">
+                                </div> -->
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#aside-1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#aside-1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                        <div id="aside-2" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#aside-2" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#aside-2" data-bs-slide-to="1"></button>
+                                <!-- <button type="button" data-bs-target="#aside-2" data-bs-slide-to="2"></button> -->
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/slider asus.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slider msi.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <!-- <div class="carousel-item">
+                                    <img src="img/slider ryzen.PNG" alt="" class="d-block w-100">
+                                </div> -->
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#aside-2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#aside-2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </aside>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <!-- products -->
+    <section class="pt-3">
+        <div class="container">
+            <header>
+                <h3 class="mb-3 mt-5">Çok Satanlar</h3>
+            </header>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <figure class="card shadow">
+                        <a href="details.html" class="img-wrap">
+                            <b class="badge bg-success">% İndirim</b>
+                            <img src="img/asus amd radeon.jpg" alt="">
+                        </a>
+                        <figcaption class="info-wrap border-top">
+                            <a href="#" class="float-end btn border btn-icon">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">
+                                ASUS TUF GAMING Radeon RX 6900 XT OC 16GB GDDR6 256 Bit Ekran Kartı
+                            </a>
+                            <div class="price-wrap">
+                                <span class="price fs-5"><strong>18.399 TL</strong></span>
+                                <del class="price-old">19.999 TL</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <figure class="card shadow">
+                        <a href="details.html" class="img-wrap">
+                            <b class="badge bg-success">% İndirim</b>
+                            <img src="img/530mb-yazma-957.jpg" alt="">
+                        </a>
+                        <figcaption class="info-wrap border-top">
+                            <a href="#" class="float-end btn border btn-icon">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">
+                                SanDisk 4TB Ultra 3D SATA 3.0 2.5  SSD (560MB Okuma / 530MB Yazma)
+                            </a>
+                            <div class="price-wrap">
+                                <span class="price fs-5"><strong>18.399 TL</strong></span>
+                                <del class="price-old">19.999 TL</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <figure class="card shadow">
+                        <a href="details.html" class="img-wrap">
+                            <b class="badge bg-success">% İndirim</b>
+                            <img src="img/5500mb-yazma-8-ababc8.jpg" alt="">
+                        </a>
+                        <figcaption class="info-wrap border-top">
+                            <a href="#" class="float-end btn border btn-icon">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">
+                                MLD M700 1TB NVME 2280 Gen4x4 M.2 SSD (7000MB Okuma / 5500MB Yazma)
+                            </a>
+                            <div class="price-wrap">
+                                <span class="price fs-5"><strong>18.399 TL</strong></span>
+                                <del class="price-old">19.999 TL</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <figure class="card shadow">
+                        <a href="details.html" class="img-wrap">
+                            <b class="badge bg-success">% İndirim</b>
+                            <img src="img/asus-27-vg278qf-165hz-0-5ms.jpg" alt="">
+                        </a>
+                        <figcaption class="info-wrap border-top">
+                            <a href="#" class="float-end btn border btn-icon">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">
+                                ASUS 27"  VG278QF 165Hz 0.5ms DVI-D HDMI DP TN FHD Freesync Gaming Monitör
+                            </a>
+                            <div class="price-wrap">
+                                <span class="price fs-5"><strong>18.399 TL</strong></span>
+                                <del class="price-old">19.999 TL</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <figure class="card shadow">
+                        <a href="details.html" class="img-wrap">
+                            <b class="badge bg-success">% İndirim</b>
+                            <img src="img/asus-tuf-gaming-geforce-gtx-1660-ti.jpg" alt="">
+                        </a>
+                        <figcaption class="info-wrap border-top">
+                            <a href="#" class="float-end btn border btn-icon">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">
+                                ASUS TUF GAMING GeForce GTX 1660 Ti EVO 6GB GDDR6 192 Bit Ekran Kartı
+                            </a>
+                            <div class="price-wrap">
+                                <span class="price fs-5"><strong>18.399 TL</strong></span>
+                                <del class="price-old">19.999 TL</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <figure class="card shadow">
+                        <a href="details.html" class="img-wrap">
+                            <b class="badge bg-danger">Fırsat Ürünü</b>
+                            <img src="img/corsair-carbide-serisi-spec-delta-rgb-550w-80-bronze.jpg" alt="">
+                        </a>
+                        <figcaption class="info-wrap border-top">
+                            <a href="#" class="float-end btn border btn-icon">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">
+                                CORSAIR Carbide Serisi SPEC-DELTA RGB 550W 80+ Bronze Tempered Glass USB 3.0 Mid Tower Kasa
+                            </a>
+                            <div class="price-wrap">
+                                <span class="price fs-5"><strong>18.399 TL</strong></span>
+                                <del class="price-old">19.999 TL</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <figure class="card shadow">
+                        <a href="details.html" class="img-wrap">
+                            <b class="badge bg-success">% İndirim</b>
+                            <img src="img/logitech-g213-progidy-kablolu-gaming-klavye.jpg" alt="">
+                        </a>
+                        <figcaption class="info-wrap border-top">
+                            <a href="#" class="float-end btn border btn-icon">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">
+                                Logitech G213 Türkçe RGB Gaming Klavye
+                            </a>
+                            <div class="price-wrap">
+                                <span class="price fs-5"><strong>18.399 TL</strong></span>
+                                <del class="price-old">19.999 TL</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <figure class="card shadow">
+                        <a href="details.html" class="img-wrap">
+                            <b class="badge bg-danger">Fırsat Ürünü</b>
+                            <img src="img/msi-23-8-optix-g242-144hz.jpg" alt="">
+                        </a>
+                        <figcaption class="info-wrap border-top">
+                            <a href="#" class="float-end btn border btn-icon">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">
+                                MSI 23.8” OPTIX G242 144Hz 1ms DP 2xHDMI IPS FHD Adaptive Sync Flat Gaming Monitör
+                            </a>
+                            <div class="price-wrap">
+                                <span class="price fs-5"><strong>18.399 TL</strong></span>
+                                <del class="price-old">19.999 TL</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <figure class="card shadow">
+                        <a href="details.html" class="img-wrap">
+                            <b class="badge bg-success">% İndirim</b>
+                            <img src="img/msi-b450m-a-pro-max-4133mhz.jpg" alt="">
+                        </a>
+                        <figcaption class="info-wrap border-top">
+                            <a href="#" class="float-end btn border btn-icon">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">
+                                MSI B450M-A PRO MAX 4133MHz(OC) DDR4 Soket AM4 M.2 HDMI DVI mATX Anakart
+                            </a>
+                            <div class="price-wrap">
+                                <span class="price fs-5"><strong>18.399 TL</strong></span>
+                                <del class="price-old">19.999 TL</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <figure class="card shadow">
+                        <a href="details.html" class="img-wrap">
+                            <b class="badge bg-success">% İndirim</b>
+                            <img src="img/razer-blackshark-v2-x-thx.jpg" alt="">
+                        </a>
+                        <figcaption class="info-wrap border-top">
+                            <a href="#" class="float-end btn border btn-icon">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">
+                                Razer BlackShark V2 X Gaming Kulaklık
+                            </a>
+                            <div class="price-wrap">
+                                <span class="price fs-5"><strong>18.399 TL</strong></span>
+                                <del class="price-old">19.999 TL</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <figure class="card shadow">
+                        <a href="details.html" class="img-wrap">
+                            <b class="badge bg-danger">Fırsat Ürünü</b>
+                            <img src="img/steelseries-rival-3-rgb.png" alt="">
+                        </a>
+                        <figcaption class="info-wrap border-top">
+                            <a href="#" class="float-end btn border btn-icon">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">
+                                Steelseries Rival 3 RGB Gaming Mouse
+                            </a>
+                            <div class="price-wrap">
+                                <span class="price fs-5"><strong>18.399 TL</strong></span>
+                                <del class="price-old">19.999 TL</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <figure class="card shadow">
+                        <a href="details.html" class="img-wrap">
+                            <b class="badge bg-success">% İndirim</b>
+                            <img src="img/yesil-oyuncu-koltugu.jpg" alt="">
+                        </a>
+                        <figcaption class="info-wrap border-top">
+                            <a href="#" class="float-end btn border btn-icon">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="details.html" class="title text-truncate">
+                                Razer Iskur X Siyah/Yeşil Oyuncu Koltuğu
+                            </a>
+                            <div class="price-wrap">
+                                <span class="price fs-5"><strong>18.399 TL</strong></span>
+                                <del class="price-old">19.999 TL</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <nav>
+                    <ul class="pagination justify-content-center my-4">
+                      <li class="page-item disabled">
+                        <a class="page-link">Önceki</a>
+                      </li>
+                      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Sonraki</a>
+                      </li>
+                    </ul>
+                  </nav>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5 mt-5 bg-dark">
+        <div class="container">
+            <div class="row footer-above">
+                <div class="col-12 col-md-6">
+                    <p class="text-white text-center text-lg-end" style="font-size: large;">Kampanyalardan haberdar olmak için E-Bülten'e üye olun!</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="E-posta adresiniz">
+                            <button type="submit" class="btn btn-info">Kaydol</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row footer-below pt-5">
+                <div class="col-6 col-lg-8 d-flex flex-wrap">
+                    <div class="">
+                            <strong class="text-warning ps-4">TECHNANO</strong>
+                            <ul class="pt-2">
+                                <li><a href="">Hakkımızda</a></li>
+                                <li><a href="">Duyurular</a></li>
+                                <li><a href="">Mağazalarımız</a></li>
+                                <li><a href="">Banka Hesapları</a></li>
+                                <li><a href="">Bize Ulaşın</a></li>
+                            </ul>
+                    </div>
+                    <div class="">
+                        <strong class="text-warning ps-4">KULLANICI REHBERİ</strong>
+                        <ul class="pt-2">
+                            <li><a href="">Giriş</a></li>
+                            <li><a href="">Kaydol</a></li>
+                            <li><a href="">Nasıl Sipariş Verebilirim?</a></li>
+                            <li><a href="">Siparişimi Nasıl Takip Edebilirim?</a></li>
+                            <li><a href="">Ödeme Seçenekleri</a></li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <strong class="text-warning ps-4">MÜŞTERİ HİZMETLERİ</strong>
+                        <ul class="pt-2">
+                            <li><a href="">İptal ve İade Koşulları</a></li>
+                            <li><a href="">Garanti Koşulları</a></li>
+                            <li><a href="">Sıkça Sorulan Sorular</a></li>
+                            <li><a href="">Çerez Politikası</a></li>
+                            <li><a href="">Satış Sonrası Destek</a></li>
+                            <li><a href="">Gizlilik Politikası</a></li>
+                            <li><a href="">Mesafeli Satış Sözleşmesi</a></li>
+                        </ul>
+                    </div>
+                </div>   
+                <div class="col-6 col-lg-4">
+                     <div class="contact-phone  text-center text-sm-end text-danger">
+                         <p style="font-size: 20px;">Bizimle İletişime Geçebilirsiniz.</p>
+                         <i class="fa-solid fa-phone fa-2x"></i><strong class="tel-no ps-2" style="font-size: x-large;">0850 850 85 00</strong>
+                     </div>
+                     <div class="social-media text-end text-danger pt-5">
+                         <a href="#">
+                            <i class="fa-brands fa-facebook-square fa-3x"></i>
+                         </a>
+                         <a href="#">
+                            <i class="fa-brands fa-instagram-square fa-3x"></i>
+                         </a>
+                         <a href="#">
+                            <i class="fa-brands fa-twitter-square fa-3x"></i>
+                         </a>
+                         <a href="#">
+                            <i class="fa-brands fa-youtube-square fa-3x"></i>
+                         </a>
+                     </div>
+                </div>
+                <div class="col-12 mt-5">
+                     <p class="text-end text-white-50">
+                        Technano.com &copy;2022 Tüm Hakları Saklıdır.
+                     </p>
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
